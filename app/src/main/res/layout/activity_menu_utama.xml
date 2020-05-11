@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/masjid"
+    tools:context=".MenuUtama">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Masjid"
+            android:textColor="#000000"
+            android:fontFamily="casual"
+            android:textSize="35sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        app:cardCornerRadius="10dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:text="Jadwal Sholat"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/btnSholat" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="10dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Identitas Masjid"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/btnIdentitas" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="10dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Pengumuman"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/btnPengumuman" />
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="#ffffff"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Tagline"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="24sp"-->
+<!--        android:fontFamily="casual"-->
+<!--        android:id="@+id/btnTagline" />-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="#ffffff"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Slideshow"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="24sp"-->
+<!--        android:fontFamily="casual"-->
+<!--        android:id="@+id/btnSlideshow" />-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="#ffffff"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Marquee"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="24sp"-->
+<!--        android:fontFamily="casual"-->
+<!--        android:id="@+id/btnMarquee" />-->
+<!--    </androidx.cardview.widget.CardView>-->
+    </LinearLayout>
+
+</ScrollView>
